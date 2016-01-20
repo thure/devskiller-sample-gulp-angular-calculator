@@ -1,0 +1,13 @@
+<div class="container">
+
+  <form name="calculatorForm">
+    A = <input type="number" ng-model="calculator.a" required>
+    B = <input type="number" ng-model="calculator.b" required>
+    Operation = <select ng-model="calculator.operation" ng-options="operation for operation in operations" required>
+    <option></option>
+    </select>
+    <button ng-click="calculate()">Calculate!</button>
+    <hr/>
+    RESULT: {{ calculator.result }}
+  </form>
+</div>

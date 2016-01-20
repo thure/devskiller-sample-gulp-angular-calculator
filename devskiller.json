@@ -1,0 +1,7 @@
+{
+  "verification": {
+    "testNamePatterns": [".*verify_pack.*"],
+    "pathPatterns": ["**verify_pack**"]
+  },
+  "readOnlyFiles" : [ "src/index.html", "gulp/**" ]
+}
